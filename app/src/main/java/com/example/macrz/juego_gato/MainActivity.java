@@ -195,7 +195,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if((Boton1.getText().toString().equals(letra+"")) && (Boton2.getText().toString().equals(letra+"")) && (Boton3.getText().toString().equals(letra+"")))
         {
-
+            Ed_ganador.setText("Gano: " +letra);
             Ed_ganador.setEnabled(false);
 
             Boton4.setEnabled(false);

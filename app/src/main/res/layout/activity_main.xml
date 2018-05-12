@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.macrz.juego_gato.MainActivity">
+
+<!-- Primera Fila-->
+    <LinearLayout
+        android:id="@+id/Fila1"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/Boton1"
+            android:layout_width="109dp"
+            android:layout_height="63dp"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/Boton2"
+            android:layout_width="109dp"
+            android:layout_height="63dp"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/Boton3"
+            android:layout_width="109dp"
+            android:layout_height="63dp"
+            android:text=" " />
+
+    </LinearLayout>
+
+   <!-- Segunda Fila-->
+
+    <LinearLayout
+        android:id="@+id/Fila2"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Fila1"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Boton4"
+            android:layout_width="109dp"
+            android:layout_height="63dp"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/Boton5"
+            android:layout_width="109dp"
+            android:layout_height="63dp"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/Boton6"
+            android:layout_width="109dp"
+            android:layout_height="63dp"
+            android:text=" " />
+
+    </LinearLayout>
+
+
+   <!-- Tercera Fila-->
+
+    <LinearLayout
+        android:id="@+id/Fila3"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Fila2"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Boton7"
+            android:layout_width="109dp"
+            android:layout_height="63dp"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/Boton8"
+            android:layout_width="109dp"
+            android:layout_height="63dp"
+            android:text=" " />
+
+        <Button
+            android:id="@+id/Boton9"
+            android:layout_width="109dp"
+            android:layout_height="63dp"
+            android:text=" " />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="338dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Fila3"
+        android:layout_marginStart="24dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center_vertical"
+            android:text="\n GANADOR --> " />
+
+        <EditText
+            android:id="@+id/Ed_ganador"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+
+   <!-- Cuarta Fila-->
+    <LinearLayout
+        android:layout_width="337dp"
+        android:layout_height="166dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="54dp"
+        android:layout_marginStart="24dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Fila4"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/limpia"
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:text="reiniciar" />
+
+            <Button
+                android:id="@+id/salir"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:text="salir" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
